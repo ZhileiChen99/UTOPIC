@@ -30,7 +30,7 @@ python setup.py install
 
 ## Pre-trained Weights
 
-We provide pre-trained weights on ModeNet40 under the setting of RPM-Crop(0.7) in the [release]() page. Please download the latest weights and put it in `weights` directory.
+We provide pre-trained weights on ModeNet40 under the setting of RPM-Crop(0.7) and RPM-Crop(0.5) in the [release]() page. Please download the latest weights and put it in `weights` directory.
 
 ## ModelNet
 
@@ -43,7 +43,7 @@ Download the [data](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2
 Please use the following command for training.
 
 ```
-python train.py --cfg experiments/train_UTOPIC_Unseen_CropRPM_0.7_modelnet40.yaml
+python train.py --cfg experiments/UTOPIC_Unseen_CropRPM_0.7_modelnet40.yaml
 ```
 
 ### Testing
@@ -51,10 +51,8 @@ python train.py --cfg experiments/train_UTOPIC_Unseen_CropRPM_0.7_modelnet40.yam
 Please use the following command for testing.
 
 ```
-python train.py --cfg experiments/test_UTOPIC_Unseen_CropRPM_0.7_modelnet40.yaml
+python eval.py --cfg experiments/UTOPIC_Unseen_CropRPM_0.7_modelnet40.yaml
 ```
-
-We also provide pretrained weights in `weights`, use the following command to test the pretrained weights.
 
 ## Results
 
