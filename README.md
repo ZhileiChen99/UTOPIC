@@ -54,6 +54,10 @@ Please use the following command for testing.
 python eval.py --cfg experiments/UTOPIC_Unseen_CropRPM_0.7_modelnet40.yaml
 ```
 
+## ScanObjectNN
+The ScanObjectNN dataset is currently not publicly available but can be requested from the authors (for academic use). 
+Please see the [project page](https://hkust-vgd.github.io/scanobjectnn/) for further information.
+
 ## Results
 
 ### ModelNet
