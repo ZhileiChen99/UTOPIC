@@ -24,7 +24,7 @@ pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f htt
 
 # Install packages and other dependencies
 pip install -r requirements.txt
-cd extensions/chamfer_distance
+cd extensions/Chamfer3D
 python setup.py install
 ```
 
