@@ -32,7 +32,11 @@ python setup.py install
 
 ## Pre-trained Weights
 
-We provide pre-trained weights on ModeNet40 under the setting of RPM-Crop(0.7) and RPM-Crop(0.5) in the [release]() page. Please download the latest weights and put it in `output` directory.
+We provide pre-trained weights on ModeNet40 under the setting of RPM-Crop(0.7) and RPM-Crop(0.5) in the [release]() page. Please download the latest weights and put it in `output` directory. The weights should be organized as follows:
+
+```
+--output--UTOPIC_ModelNet40_Unseen_crop_0.7--checkpoints--model_best.pth
+```
 
 ## ModelNet
 
