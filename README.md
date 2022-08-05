@@ -2,7 +2,9 @@
 
 PyTorch implementation of the paper:
 
-UTOPIC: Uncertainty-aware Overlap Prediction Network for Partial Point Cloud Registration.
+[UTOPIC: Uncertainty-aware Overlap Prediction Network for Partial Point Cloud Registration](https://arxiv.org/abs/2208.02712).
+
+Zhilei Chen, Honghua Chen, Lina Gong, Xuefeng Yan, Jun Wang, Yanwen Guo, Jing Qin, and Mingqiang Wei.
 
 ## Introduction
 
