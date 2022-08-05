@@ -1,0 +1,47 @@
+# Dataset options
+DATASET:
+  TRAIN_BATCH_SIZE: 4
+  TEST_BATCH_SIZE: 1
+  POINT_NUM: 1024
+  UNSEEN: True
+  NOISE_TYPE: crop  #clean, jitter, crop
+  ROT_MAG: 45.0
+  TRANS_MAG: 0.5
+  PARTIAL_P_KEEP:
+    - 0.5
+    - 0.5
+
+# Model parameters
+MODEL:
+  NEIGHBORSNUM: 20
+  FEATURE_EMBED_CHANNEL: 512
+  SKADDCR: True
+
+MODEL_NAME: UTOPIC
+DATASET_NAME: ModelNet40
+DATASET_FULL_NAME: modelnet40_ply_hdf5_2048
+
+DATALOADER_NUM: 4
+RANDOM_SEED: 123
+
+# GPU id
+GPU: 0
+
+# Training settings
+TRAIN:
+  # start, end epochs
+  START_EPOCH: 0
+  NUM_EPOCHS: 200
+
+  # learning rate
+  OPTIM: SGD
+  LR: 1.0e-3
+  MOMENTUM: 0.9
+  LR_DECAY: 0.2
+  LR_STEP:  # (in epochs)
+    - 120
+    - 140
+
+# Evaluation settings
+EVAL:
+  EPOCH: -1  # epoch to be tested, -1 is the best model
