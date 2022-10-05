@@ -80,6 +80,20 @@ We use the data augmentation in [RGM](https://arxiv.org/abs/2103.04256) which is
 | ModelNet (0.7)  | 0.2238 | 0.1322 | 0.00212 | 0.00131 | 0.2464 | 0.00264 |
 | ModelLoNet (0.5) | 2.5463 | 0.8588 | 0.02098 | 0.00765 | 1.5934 | 0.01555 |
 
+### Citation
+If you find this code useful for your work or use it in your project, please consider citing:
+
+```
+@article {10.1111:cgf.14659,
+  journal = {Computer Graphics Forum},
+  title = {{UTOPIC: Uncertainty-aware Overlap Prediction Network for Partial Point Cloud Registration}},
+  author = {Chen, Zhilei and Chen, Honghua and Gong, Lina and Yan, Xuefeng and Wang, Jun and Guo, Yanwen and Qin, Jing and Wei, Mingqiang},
+  year = {2022},
+  publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
+  ISSN = {1467-8659},
+  DOI = {10.1111/cgf.14659}
+}
+```
 
 ## Acknowledgements
 
