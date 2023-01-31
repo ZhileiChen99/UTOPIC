@@ -1,4 +1,4 @@
-# UTOPIC: Uncertainty-aware Overlap Prediction Network for Partial Point Cloud Registration
+# UTOPIC: Uncertainty-aware Overlap Prediction Network for Partial Point Cloud Registration (PG 2022)
 
 PyTorch implementation of the paper:
 
